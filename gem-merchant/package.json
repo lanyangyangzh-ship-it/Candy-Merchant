@@ -1,0 +1,20 @@
+{
+  "name": "gem-merchant",
+  "version": "2.1.0",
+  "private": true,
+  "type": "module",
+  "description": "宝石商人 · 四人单文件 Splendor 风格小游戏 + 4 人联机 + A4 规则书",
+  "scripts": {
+    "start": "node server.mjs",
+    "build": "node build.mjs && node build-rulebook.mjs",
+    "build:game": "node build.mjs",
+    "build:rulebook": "node build-rulebook.mjs",
+    "test": "node test/engine.test.mjs && node test/net.test.mjs && node test/server.test.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.18.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

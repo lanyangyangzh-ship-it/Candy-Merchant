@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>宝石商人 · 规则书</title>
+<style>/*__CSS__*/</style>
+</head>
+<body>
+__DEFS__
+<div class="book">
+
+  <!-- ======================== 封面 ======================== -->
+  <section class="page cover">
+    <div class="cover-frame">
+      <div class="cover-top">A Game of Gems &amp; Guile</div>
+      <div class="cover-hero">__HERO__</div>
+      <h1>宝石商人</h1>
+      <p class="en">Gem Merchant · Rulebook</p>
+      <div class="cover-rule"></div>
+      <p class="cover-sub">规则书</p>
+      <p class="cover-tag">Second Edition · Full Card Gallery</p>
+      <p class="cover-meta">2–4 人 · 约 20–30 分钟 · 12 岁以上</p>
+      <p class="cover-meta">单机对弈 / 联机房间</p>
+      <p class="cover-foot">90 Cards · 55 Gems · 10 Noble Houses</p>
+    </div>
+    <span class="cover-no"></span>
+  </section>
+
+  <!-- ======================== Ⅰ · 故事与目标 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>宝石商人</b><span>规则书 · Ⅰ 故事与目标</span></div>
+    <div class="kicker">A Game of Gems &amp; Guile</div>
+    <h2><span class="num">Ⅰ</span>在宝石之都立足</h2>
+    <p class="lead dropcap">黄昏时分，商队从沙海归来，矿工把新采的晶石送进工坊。你带着一只旧皮箱和一张借据，站在市场的尽头。塔楼上的贵族正俯视着人群，寻找能替他们经营宝石生意的人。</p>
+    <p>用眼光、耐心和一点点冒险，把零散的宝石变成声望。每一次拿取、预订与购买，都是在为最后那顶看不见的王冠下注。</p>
+
+    <div class="two-col">
+      <div>
+        <h3>目标</h3>
+        <p>率先获得 <b>15 点声望</b>。达到 15 分后，本轮仍会走完，确保所有玩家行动次数相同；分数最高者获胜。同分时，已购卡牌较少者胜；仍相同则平局。</p>
+        <h3>组件</h3>
+        <p><b>90 张卡牌</b>：一级 40 张、二级 30 张、三级 20 张。每张卡都有独立场景插画；卡面颜色与中央宝石代表它的永久宝石。</p>
+        <p><b>55 枚宝石</b>：钻石、蓝宝石、祖母绿、红宝石、黑曜石各 10 枚，黄金 5 枚。</p>
+        <p><b>10 位贵族</b>：每局随机 5 位到场，每位 3 分。</p>
+        <p><b>市场</b>：3 行 × 4 列；另有银行、2 个玩家区和 3 个预订位。</p>
+      </div>
+      <div>
+        <div class="note">
+          <b>2–4 人。</b><br>
+          单人模式：你 + 3 位 AI（罗伦佐、碧翠丝、马可）。<br>
+          联机模式：2–4 位真人，空位由 AI 补足。<br>
+          四人设置：5 位贵族、每色 10 枚、黄金 5 枚、15 分终局。
+        </div>
+        <p class="small">每张卡的画面不是装饰：矿脉、工坊、商路三种场景对应三个等级；同一等级的同一宝石也有多张不同的构图与费用。完整 90 张见书末图鉴。</p>
+        <p class="small">卡面不印名称；图鉴中的名字（如「蓝宝石商路 · 远洋宝船」）用于识别与讨论。</p>
+        <p class="small">下一页把牌桌摆好；如果你已经熟悉规则，可以直接翻到「回合与行动」。</p>
+      </div>
+    </div>
+
+    <div class="token-grid">__TOKENS__</div>
+
+    <div class="note">
+      <b>读完这一页，你只需要记住三件事：</b>收集宝石、购买卡牌建立永久折扣、用折扣与贵族冲到 15 分。剩下的细节，牌桌会提醒你。
+    </div>
+
+    <div class="pullquote">
+      <span>“宝石不会说谎，人会。”</span>
+      <em>—— 罗伦佐，商会会长</em>
+    </div>
+
+    <div class="page-foot"><span>Gem Merchant · Rulebook</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== Ⅰ · 设置 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>宝石商人</b><span>规则书 · Ⅰ 设置</span></div>
+    <div class="kicker">Setting the Table</div>
+    <h2><span class="num">Ⅰ</span>摆好第一张牌桌</h2>
+    <p class="lead">设置只需要几分钟：三级市场、五位贵族、一座银行。把牌背朝下洗匀，把宝石按颜色分开，就可以开始了。</p>
+
+    <div class="two-col">
+      <div>
+        <h3>五分钟设置</h3>
+        <ol class="small" style="margin:0;padding-left:1.3em;line-height:1.75">
+          <li>按等级分别洗牌，正面朝上各翻 4 张，形成三级市场。</li>
+          <li>洗 10 位贵族，随机翻 5 位；其余移出本局。</li>
+          <li>银行放入每种彩色宝石 10 枚、黄金 5 枚。</li>
+          <li>每人 0 枚宝石、0 枚永久宝石、0 分、3 个空预订位。</li>
+          <li>你 / 房主先手；之后按座位轮流行动；联机空位由 AI 补足。</li>
+        </ol>
+        <div class="note">
+          <b>先手第一回合</b>没有宝石，通常只能拿宝石、预订或盲抽。<br>
+          <b>黄金</b>只能通过预订获得，不能直接拿取。
+        </div>
+      </div>
+      <div>
+        <h3>预订与盲抽</h3>
+        <p class="small"><b>预订：</b>从市场选一张，或从任一牌堆顶盲抽一张，正面朝下放在自己面前；其他玩家只看得到张数，看不到牌面。预订的卡只有你能购买。</p>
+        <p class="small"><b>盲抽：</b>盲抽不补充市场；市场牌被买走或预订走时才补 1 张。牌堆空了就不再补。</p>
+        <p class="small"><b>牌堆：</b>三个等级各自独立；三级牌堆最先见底并不罕见，市场空位不再补牌，但已翻开的卡仍可购买。</p>
+      </div>
+    </div>
+
+    __SETUP__
+
+    <div class="page-foot"><span>Gem Merchant · Rulebook</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== Ⅱ · 回合 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>宝石商人</b><span>规则书 · Ⅱ 回合与行动</span></div>
+    <div class="kicker">One Turn, One Action</div>
+    <h2><span class="num">Ⅱ</span>一回合，只做一件事</h2>
+    <p class="lead">轮到你时，从下面四种行动中选择一种。不能跳过，也不能连续做两种。行动结束后检查贵族与 10 枚上限，然后轮到下一位玩家。</p>
+
+    <div class="actions">
+      <div class="action">
+        <div class="n">1</div>
+        <div class="art">__ACTION1__</div>
+        <h3>拿三色</h3>
+        <p>从银行拿 <b>3 枚不同颜色</b>的宝石，不含黄金。每种颜色至少 1 枚。</p>
+        <p class="small">极端情况：若银行只剩 2 种颜色，就拿这 2 种各 1 枚；只剩 1 种时拿 1 枚。</p>
+      </div>
+      <div class="action">
+        <div class="n">2</div>
+        <div class="art">__ACTION2__</div>
+        <h3>拿双色</h3>
+        <p>拿 <b>2 枚同色</b>宝石；该颜色银行库存必须 <b>≥4 枚</b>时才能拿。</p>
+        <p class="small">黄金不能作为「同色」拿取。库存不足 4 枚时，只能拿其他颜色或改用别的行动。</p>
+      </div>
+      <div class="action">
+        <div class="n">3</div>
+        <div class="art">__ACTION3__</div>
+        <h3>预订</h3>
+        <p>从市场选 1 张，或从任一牌堆顶盲抽 1 张，放入你的预订区（<b>上限 3 张</b>）。</p>
+        <p>立即获得 <b>1 枚黄金</b>（若银行还有）。黄金是万能宝石，可代替任意颜色。预订的卡只有你能买。</p>
+        <p class="small">市场少 1 张时立即补 1 张；盲抽不补市场。</p>
+      </div>
+      <div class="action">
+        <div class="n">4</div>
+        <div class="art">__ACTION4__</div>
+        <h3>购买</h3>
+        <p>买市场或自己预订区的一张卡。每张已购卡提供 <b>1 枚永久宝石</b>，可抵扣 1 枚同色费用；彩色宝石不够时，用<b>黄金</b>补足。</p>
+        <p>买下后：获得卡上的声望分与永久宝石；市场立即补 1 张。这张卡永久留在你的商业版图里。</p>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <div>
+        <h3>行动结束</h3>
+        <p>先检查贵族（见「贵族与终局」），再检查宝石上限。</p>
+        <div class="note">
+          <b>10 枚上限</b><br>
+          行动结束后，若你持有的宝石（含黄金）超过 10 枚，必须立即一枚一枚归还到 10 枚。不能等到下回合。
+        </div>
+        <div class="note">
+          <b>贵族来访</b><br>
+          若永久宝石满足一位贵族，立即获得 3 分；同时满足多位时选择一位。贵族拿走后不补位。
+        </div>
+      </div>
+      <div>
+        <h3>一个购买示例</h3>
+        <p>费用为 <b>3 蓝、2 绿</b>；你有 2 枚蓝永久、1 枚绿永久、2 枚蓝 token、1 枚黄金。</p>
+        <p>永久抵扣后还差 <b>1 蓝 + 1 绿</b>；用 1 枚蓝 token 支付蓝色，再用 1 枚黄金补绿色即可。</p>
+        <p>买下后，你获得卡上的分数和 1 枚永久蓝宝石。之后每买一张蓝卡，都会更容易。</p>
+        <p class="small">黄金只在彩色宝石不足时使用；不要为了省 token 而浪费黄金。</p>
+      </div>
+    </div>
+
+    <h3>黄金与预订</h3>
+    <p>黄金不是第六种宝石，而是<b>万能替代</b>：支付时缺哪种颜色，就用黄金补哪种。它不能用于拿取行动，也不会提供永久折扣。预订是获得黄金的唯一方式；即使你不想买那张卡，预订也可能帮你拿到关键的一枚黄金。</p>
+    <p>盲抽是风险：你可能拿到一张很贵的卡，也可能拿到其他玩家正想要的牌。预订区上限 3 张，满了就不能再预订。</p>
+
+    <div class="page-foot"><span>Gem Merchant · Rulebook</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== Ⅲ · 卡牌 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>宝石商人</b><span>规则书 · Ⅲ 卡牌解剖</span></div>
+    <div class="kicker">Anatomy of a Card</div>
+    <h2><span class="num">Ⅲ</span>一张卡，三段故事</h2>
+    <p class="lead">每张卡都只靠画面和数字说话。看懂左上、右上、中央和底部四个位置，你就看懂了整副牌。</p>
+
+    <div class="anatomy">
+      __ANATOMY_CARD__
+      <div class="anatomy-side">
+        <div class="legend">
+          <div class="legend-item"><span class="num">1</span><span><b>声望分</b><br>左上角金色菱形。0 分也值得买，因为它提供永久折扣。</span></div>
+          <div class="legend-item"><span class="num">2</span><span><b>等级</b><br>右上角 I / II / III。等级越高，费用越重，分数通常越高。</span></div>
+          <div class="legend-item"><span class="num">3</span><span><b>画面</b><br>矿脉、工坊或商路。色调与中央宝石对应这张卡的永久宝石。</span></div>
+          <div class="legend-item"><span class="num">4</span><span><b>中央宝石</b><br>购买后获得 1 枚永久宝石；之后每买同色卡，费用减 1。</span></div>
+          <div class="legend-item"><span class="num">5</span><span><b>费用</b><br>底部彩色宝石与数字。黄金可以替代任意一种颜色。</span></div>
+          <div class="legend-item"><span class="num">6</span><span><b>名称</b><br>卡面不印名字；图鉴中的完整名称用于识别，例如「蓝宝石商路 · 远洋宝船」。</span></div>
+        </div>
+        <p class="small" style="margin-top:8px">卡牌没有文字段落。颜色、宝石形状、等级与费用数字就是全部信息。</p>
+      </div>
+    </div>
+
+    <h3>三阶市场</h3>
+    <div class="tier-row">__TIER_CARDS__</div>
+    <div class="two-col">
+      <div>
+        <p><b>一级 · 矿脉（40 张）</b>：费用低，多为 0–1 分。它们是开局的地基，让你尽快建立 3–4 种颜色的永久折扣。</p>
+        <p><b>二级 · 工坊（30 张）</b>：费用更重，分数 1–3 分。中期主力，决定你能否转向三级牌与贵族。</p>
+      </div>
+      <div>
+        <p><b>三级 · 商路（20 张）</b>：费用最高，分数 3–5 分。远洋、沙海与王庭的终局牌，也是其他玩家最想预订的牌。</p>
+        <p class="small">同一等级、同一宝石的 8 / 6 / 4 张卡也有不同的构图、费用与分数；90 张全部收录在书末图鉴。</p>
+      </div>
+    </div>
+
+    <div class="note">
+      <b>怎么快速读牌：</b>先看中央宝石（我要不要这个折扣），再看左上分数（值不值得为它花一回合），最后看底部费用（我现在买不买得起）。三者都合适，才是好牌。
+    </div>
+
+    <div class="page-foot"><span>Gem Merchant · Rulebook</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== Ⅳ · 贵族与终局 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>宝石商人</b><span>规则书 · Ⅳ 贵族与终局</span></div>
+    <div class="kicker">A Noble Visit · The Final Round</div>
+    <h2><span class="num">Ⅳ</span>贵族的青睐</h2>
+    <p class="lead">贵族不买宝石，他们只看你已经拥有什么。永久宝石达到要求，贵族就会在你的行动结束后主动来访——3 分，不需要再花一回合。</p>
+
+    <div class="noble-row">__NOBLE_EXAMPLES__</div>
+
+    <div class="two-col">
+      <div>
+        <h3>来访规则</h3>
+        <ul class="small" style="margin:0;padding-left:1.2em;line-height:1.75">
+          <li>只看<b>永久宝石</b>（已购卡提供的折扣），不看 token。</li>
+          <li>完成行动后检查；满足一位→立即 +3 分。</li>
+          <li>同时满足多位→选择一位；其余留在场上。</li>
+          <li>贵族拿走后不补位；每局只有 5 位。</li>
+          <li>贵族分计入 15 分；贵族不会触发额外行动。</li>
+        </ul>
+        <p class="small">联机时，贵族是公开信息；其他玩家也能看到你的进度。房主校验来访。</p>
+      </div>
+      <div>
+        <h3>终局</h3>
+        <p>当一位玩家达到 <b>15 分</b>时，触发最后一轮，而不是立即获胜。</p>
+        <p>触发者之后的玩家会补完本轮；如果触发者已经是本轮最后一位，则立即结束。这样所有玩家行动次数相同。</p>
+        <p>随后比较分数：高者胜；同分时，<b>已购卡牌较少</b>者胜；仍相同则平局。预订卡不计入已购卡数量，贵族分计入总分。</p>
+      </div>
+    </div>
+
+    <div class="note">
+      <b>终局示例：</b>你回合结束时 14 分，其他三人分别为 12、11、10 分。你买下一张 2 分卡，达到 16 分，触发最后一轮。你之后的玩家依次补完本轮；之后比较总分。若有人也到 16 分，则已购卡少者胜。
+    </div>
+
+    <h3>计分清单</h3>
+    <div class="two-col">
+      <div>
+        <p class="small"><b>已购卡：</b>卡面左上角的分数，购买时立即计入。</p>
+        <p class="small"><b>贵族：</b>每位 3 分，来访时立即计入。</p>
+        <p class="small"><b>永久宝石：</b>不计分，但决定折扣与贵族资格。</p>
+      </div>
+      <div>
+        <p class="small"><b>宝石 token：</b>不计分；终局时留在手中也无妨（但不能超过 10 枚上限）。</p>
+        <p class="small"><b>预订卡：</b>不计分，也不算已购卡；只有买下才计入。</p>
+        <p class="small"><b>平局：</b>分数 → 已购卡数量 → 平局。</p>
+      </div>
+    </div>
+
+    <div class="page-foot"><span>Gem Merchant · Rulebook</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== Ⅴ · 十位贵族 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>宝石商人</b><span>规则书 · Ⅴ 贵族纹章</span></div>
+    <div class="kicker">The Ten Noble Houses</div>
+    <h2><span class="num">Ⅴ</span>十位贵族</h2>
+    <p class="lead">每局随机抽 5 位贵族到场。下面 10 枚纹章是全部贵族；中心的宝石是家族色，王冠是家族徽记，真正的需求写在各纹章下方的小宝石图标里。纹章色与需求颜色无关，需求以图标为准。</p>
+
+    <div class="nobles-all">__NOBLE_ALL__</div>
+
+    <div class="note" style="margin-top:12px">
+      <b>怎么读纹章：</b>中心大宝石 = 家族色；上方王冠/冠饰 = 家族纹章；底部三颗金色菱形 = 3 分；<b>纹章下方</b>的小宝石与数字 = 永久宝石需求。游戏中的贵族牌会直接列出需求。
+    </div>
+    <p class="small">例如「翡翠王公」的家族色是祖母绿，但他真正的要求可能包含蓝宝石与红宝石；请以需求图标为准。贵族的家族色只是美术标识，不参与计分。</p>
+
+    <div class="pullquote">
+      <span>“贵族不买宝石，他们买的是有宝石的人。”</span>
+      <em>—— 宝石之都谚语</em>
+    </div>
+
+    <div class="page-foot"><span>Gem Merchant · Rulebook</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== Ⅵ · 联机与速查 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>宝石商人</b><span>规则书 · Ⅵ 联机与速查</span></div>
+    <div class="kicker">Play Together · Quick Reference</div>
+    <h2><span class="num">Ⅵ</span>与朋友对局</h2>
+
+    <div class="two-col">
+      <div>
+        <h3>联机</h3>
+        <p>联机是 <b>2–4 位真人</b>，房主权威：房主校验动作并同步牌桌；每位客人看到以自己为视角的牌桌。</p>
+        <ol class="small" style="margin:0;padding-left:1.2em;line-height:1.7">
+          <li>房主创建房间，得到 4 位房间码与邀请链接。</li>
+          <li>朋友打开链接（房间码自动填入）或手动输入房间码加入。</li>
+          <li>房主先手；房主开始后，2–4 人按座位轮流行动。</li>
+        </ol>
+        <div class="note">
+          刷新或断线会结束当前房间；v1 不支持断线重连或观战。2–4 人房空位由 AI 补足。
+        </div>
+        <p class="small">本地服务器：<code>npm install &amp;&amp; npm start</code>；公网部署 <code>server.mjs</code>（Render / Railway / VPS），详见 README。单机模式不需要服务器，只发 HTML 就能离线玩。</p>
+      </div>
+      <div>
+        <h3>单人模式</h3>
+        <div class="seals">__SEALS__</div>
+        <p class="small">你与罗伦佐、碧翠丝、马可三位 AI 对局。AI 会拿宝石、预订、购买，也会抢你想要的牌；它们不会因为你领先就放弃。规则与联机完全一致。</p>
+        <p class="small">四枚徽记分别对应你、罗伦佐、碧翠丝、马可。单人战绩保存在本机浏览器。</p>
+      </div>
+    </div>
+
+    <h3>快速参考</h3>
+    <table class="quick">
+      <thead><tr><th>行动 / 规则</th><th>要点</th></tr></thead>
+      <tbody>
+        <tr><td>拿 3 色</td><td>3 枚不同颜色，不含黄金；银行不足 3 色时拿光可用颜色。</td></tr>
+        <tr><td>拿 2 同色</td><td>该颜色库存 ≥4 枚；不能拿黄金。</td></tr>
+        <tr><td>预订</td><td>市场牌或牌堆顶盲抽；上限 3 张；+1 黄金（若还有）。</td></tr>
+        <tr><td>购买</td><td>永久宝石抵扣同色费用；黄金补缺；市场立即补牌。</td></tr>
+        <tr><td>10 枚上限</td><td>行动结束后检查；超过则一枚一枚归还到 10 枚。</td></tr>
+        <tr><td>贵族</td><td>行动后自动检查；满足即 +3 分；多位则选一位。</td></tr>
+        <tr><td>终局</td><td>15 分触发最后一轮；所有玩家行动次数相同后比分数。</td></tr>
+        <tr><td>平局</td><td>分数 → 已购卡数量少者 → 平局。</td></tr>
+      </tbody>
+    </table>
+
+    <div class="two-col">
+      <div>
+        <h3>开局建议</h3>
+        <ul class="small" style="margin:0;padding-left:1.2em;line-height:1.7">
+          <li>前 3 回合优先一级卡，建立 3 种颜色的折扣。</li>
+          <li>不要囤超过 10 枚宝石；黄金留给关键的一张牌。</li>
+          <li>盯住其他玩家的预订区：他们预订的往往是最想要的三级牌。</li>
+          <li>贵族差 1–2 枚时，优先补那个颜色；3 分往往比一张二级卡更值。</li>
+          <li>先手达到 15 分时，其余玩家还有最后一轮；领先 2 分并不安全。</li>
+        </ul>
+      </div>
+      <div>
+        <h3>制作与致谢</h3>
+        <p class="small"><b>规则灵感：</b>Marc André 的《Splendor / 璀璨宝石》。本作是非官方同人作品，请支持正版桌游。</p>
+        <p class="small"><b>实现：</b>单文件 HTML5 + 内联 SVG；90 张卡牌插画、10 枚贵族纹章、4 枚商人徽记均由程序化矢量绘制。</p>
+        <p class="small"><b>字体：</b>系统宋体/黑体回退；无外部图片与网络资源。</p>
+        <p class="small">版本 2.0 · 2026-10 · 含全卡图鉴</p>
+      </div>
+    </div>
+
+    <div class="page-foot"><span>Gem Merchant · Rulebook</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== 图鉴 · 一级上 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>卡牌图鉴</b><span>一级 · 矿脉 / 上</span></div>
+    <div class="gallery-head">
+      <div><div class="kicker">Level I · Mines</div><h2>一级 · 矿脉</h2></div>
+      <div class="range">I</div>
+    </div>
+    <p class="gallery-note">40 张 · 8 种图景 × 5 种宝石 · 第 1–20 张</p>
+    <p class="gallery-legend">费用缩写：钻 钻石 · 蓝 蓝宝石 · 翠 祖母绿 · 红 红宝石 · 墨 黑曜石</p>
+    __GALLERY_L1A__
+    <div class="gallery-foot-note">每张卡的构图由等级、宝石色、费用模板与固定种子生成；同一宝石的 8 张一级卡也各不相同。</div>
+    <div class="page-foot"><span>Card Gallery · Level I</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <section class="page">
+    <div class="page-head"><b>卡牌图鉴</b><span>一级 · 矿脉 / 下</span></div>
+    <div class="gallery-head">
+      <div><div class="kicker">Level I · Mines</div><h2>一级 · 矿脉</h2></div>
+      <div class="range">I</div>
+    </div>
+    <p class="gallery-note">40 张 · 第 21–40 张 · 费用低，适合开局建立永久折扣</p>
+    <p class="gallery-legend">费用缩写：钻 钻石 · 蓝 蓝宝石 · 翠 祖母绿 · 红 红宝石 · 墨 黑曜石</p>
+    __GALLERY_L1B__
+    <div class="gallery-foot-note">左上角为声望分；底部为费用。名称中的「晶簇、深井、暗河……」是场景名，不是规则术语。</div>
+    <div class="page-foot"><span>Card Gallery · Level I</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== 图鉴 · 二级 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>卡牌图鉴</b><span>二级 · 工坊</span></div>
+    <div class="gallery-head">
+      <div><div class="kicker">Level II · Workshops</div><h2>二级 · 工坊</h2></div>
+      <div class="range">II</div>
+    </div>
+    <p class="gallery-note">30 张 · 6 种图景 × 5 种宝石 · 中期主力，分数 1–3 分</p>
+    <p class="gallery-legend">费用缩写：钻 钻石 · 蓝 蓝宝石 · 翠 祖母绿 · 红 红宝石 · 墨 黑曜石</p>
+    __GALLERY_L2__
+    <div class="gallery-foot-note">工坊把矿脉变成工艺：切磨台、透镜、金库、熔炉、案台、陈列柜。优先买能补齐贵族需求的颜色。</div>
+    <div class="page-foot"><span>Card Gallery · Level II</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+  <!-- ======================== 图鉴 · 三级 ======================== -->
+  <section class="page">
+    <div class="page-head"><b>卡牌图鉴</b><span>三级 · 商路</span></div>
+    <div class="gallery-head">
+      <div><div class="kicker">Level III · Trade Routes</div><h2>三级 · 商路</h2></div>
+      <div class="range">III</div>
+    </div>
+    <p class="gallery-note">20 张 · 4 种图景 × 5 种宝石 · 终局牌，分数 3–5 分</p>
+    <p class="gallery-legend">费用缩写：钻 钻石 · 蓝 蓝宝石 · 翠 祖母绿 · 红 红宝石 · 墨 黑曜石</p>
+    __GALLERY_L3__
+    <div class="gallery-foot-note">沙海商队、远洋宝船、王庭贡使、香料之路。它们昂贵，但一张就能改变终局；注意其他玩家的预订区与黄金。</div>
+    <div class="page-foot"><span>Card Gallery · Level III</span><span>PAGE <span class="page-no"></span></span></div>
+  </section>
+
+</div>
+</body>
+</html>
